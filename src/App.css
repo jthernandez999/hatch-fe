@@ -151,23 +151,21 @@ table {
     font-family: "TT Commons", sans-serif;
     /* padding-left: -9rem; */
     /* padding: 0 3.5rem; */
-    padding-left: 0rem;
-    padding-right: 8rem;
-    padding-top: 10rem;
+    padding-left: 3rem;
     text-align: left;
-    margin-left: 30rem;
+    /* margin-left: 30rem; */
 
-    width: 25%;
+    width: 33%;
     font-size: medium;
     align-self: flex-start;
 }
 
 .hero-headline {
     font-size: 550% !important;
-    font-weight: 400;
+    font-weight: 350;
     margin: 0;
     align-items: center;
-    text-align: justify;
+    text-align: left;
 }
 
 .header-text {
@@ -201,9 +199,10 @@ table {
 }
 .card-list {
     display: flex;
-    padding-bottom: 7rem;
+    width: 90%;
+    /* padding-bottom: 7rem;
     padding-left: 7rem;
-    padding-right: 7rem;
+    padding-right: 7rem; */
     /* width: 100vw; */
 }
 .feature-section {
@@ -214,23 +213,24 @@ table {
     margin: 0 auto;
 }
 .main-container {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
     padding-top: 2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+    width: 33%;
     margin: auto;
 }
 .card-list-container {
     /* display: flex; */
-
+    padding-left: 3rem;
+    padding-right: 3rem;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 100vw;
 }
 .card-container {
     font-size: x-large;
